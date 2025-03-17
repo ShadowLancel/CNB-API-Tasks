@@ -46,4 +46,6 @@ def sync_period_data(start_date, end_date, allowed_currencies):
 
 if __name__ == "__main__":
     currencies = os.getenv("SYNC_CURRENCIES").split(",")
-    sync_period_data("10.03.2025", "17.03.2025", currencies)
+    start_date = os.getenv("SYNC_START")
+    end_date = os.getenv("SYNC_END")
+    sync_period_data(start_date, end_date, currencies)
