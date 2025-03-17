@@ -18,7 +18,7 @@ cofigure you're time for write data in table with scheduler in .env file in para
 ## Task 2: Recording data in a period:
 cofigure you're period for write data in table by change you're data period in .env file in params `SYNC_START=day.month.year` and `SYNC_END=day.month.year`. Then you can run file `SyncPeriodData.py` and get data in DB
 
-# Task 3: POST endpoint
+## Task 3: POST endpoint
 for env:
 1. open env
 ```
@@ -30,7 +30,7 @@ uvicorn API_GetDate:app --reload
 then Follow the link 127.0.0.1:8000/docs for endpoint test.
 You can send a post request with the default parameters, but you must make sure that this period covers the data received from the database.
 
-# Task 4: Pytest
+## Task 4: Pytest
 for env:
 ```
 cd path_to_project
