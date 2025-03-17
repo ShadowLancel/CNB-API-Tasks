@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-16T17:32:11.057Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "cnb-DB_get_with_tests\\database.py",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-16T18:16:07.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T18:16:07.406Z"
             },
             {
               "$type": "Document",
@@ -73,8 +71,7 @@
               "RelativeToolTip": "cnb-DB_get_with_tests\\scheduler.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-16T18:01:36.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T18:01:36.103Z"
             },
             {
               "$type": "Document",
@@ -86,8 +83,7 @@
               "RelativeToolTip": "cnb-DB_get_with_tests\\Tests.py",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwBoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-16T12:10:36.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T12:10:36.903Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "cnb-DB_get_with_tests\\SyncPeriodData.py",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-16T12:07:47.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T12:07:47.246Z"
             }
           ]
         }
