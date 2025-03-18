@@ -7,7 +7,6 @@ from SyncPeriodData import sync_period_data
 load_dotenv()
 
 def scheduled_sync():
-    # Получаем сегодняшнюю дату в формате "dd.mm.yyyy"
     today = datetime.today().strftime("%d.%m.%Y")
     allowed_currencies = os.getenv("SYNC_CURRENCIES", "AUD,USD,EUR").split(",")
     print(f"Синхронизация данных за {today}")

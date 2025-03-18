@@ -6,27 +6,9 @@ from datetime import datetime
 app = FastAPI()
 
 class ReportRequest(BaseModel):
-    start_date: str = Field(..., description="Формат DD.MM.YYYY", example="10.03.2025")
-    end_date: str = Field(..., description="Формат DD.MM.YYYY", example="17.03.2025")
-    currencies: list[str] = Field(..., description="Список валют", example=["USD", "EUR"])
-    
-    # переопределение схемы
-    @classmethod
-    def model_json_schema(cls, **kwargs):
-        schema = super().model_json_schema(**kwargs)
-        schema["properties"] = {
-            "start_date": schema["properties"]["start_date"],
-            "end_date": schema["properties"]["end_date"],
-            "currencies": schema["properties"]["currencies"]
-        }
-        schema["examples"] = [
-            {
-                "start_date": "10.03.2025",
-                "end_date": "17.03.2025",
-                "currencies": ["USD", "EUR"]
-            }
-        ]
-        return schema
+    start_date: str = Field(default="10.03.2025",description="Формат DD.MM.YYYY")
+    end_date: str = Field(default="17.03.2025", description="Формат DD.MM.YYYY")
+    currencies: list[str] = Field(default=["USD", "EUR"], description="Список валют")
 
 @app.post("/report")
 def get_report(request: ReportRequest):
